@@ -1,4 +1,5 @@
 body {
+<<<<<<< HEAD
     background-color: #f0f2f5;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
@@ -89,3 +90,34 @@ body {
 .create-account:hover {
     background-color: #36a420;
 }
+=======
+    font-family: Arial, sans-serif;
+    background-color: #f0f2f5;
+    margin: 0;
+    padding: 0;
+}
+#container {
+    max-width: 400px;
+    margin: 100px auto;
+    padding: 20px;
+    background: white;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+h1 {
+    text-align: center;
+}
+form {
+    display: flex;
+    flex-direction: column;
+}
+label, input {
+    margin-bottom: 10px;
+}
+button {
+    padding: 10px;
+    background: #4267B2;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+>>>>>>> ed29a1e7794746af70ca182bd72200518eeaa5af
